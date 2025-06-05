@@ -12,7 +12,14 @@ const TopBar = () => {
       <div className="searchBar">
         <input type="text" placeholder="Search..." />
       </div>
-      <div className="userAuth">Login / SignUp</div>
+      <div className="userAuth">
+        <span className="login" onClick={showLoginHandler}>
+          Login
+        </span>
+        <span className="register" onClick={showRegisterHandler}>
+          Register
+        </span>
+      </div>
     </section>
   );
 };
