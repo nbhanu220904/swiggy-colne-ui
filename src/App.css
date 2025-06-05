@@ -12,6 +12,7 @@ body {
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-right: 10px;
 }
 .login {
   background-color: #ff6700;
@@ -324,9 +325,9 @@ body {
     padding: 5px;
     margin-right: 5px;
   }
-  .userAuth {
+  /* .userAuth {
     margin-right: 10px;
-  }
+  } */
   .btnIcons {
     font-size: large;
     gap: 2px;
